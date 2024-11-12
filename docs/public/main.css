@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&display=swap');
+
+:root {
+  --pink-color: #F86E66;
+  --brown-color: #D29F7A;
+  --beige-color: #E4DAC7;
+  --blue-color: #8EBFC3;
+}
+
+.font-fun {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-serif {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-split {
+  background: linear-gradient(to right, var(--brown-color) 0%, var(--brown-color) 50%, #8EBFC3 50%, #8EBFC3 100%);
+}
+
+.bg-beige {
+  background-color: #E4DAC7;
+}
+
+.bg-brown {
+  background-color: #D29F7A;
+}
+
+.bg-blue {
+  background-color: #8EBFC3;
+}
+
+.bg-pink {
+  background-color: #F86E66;
+}
+
+.bg-blurry {
+  background-color: rgba(255,255,255,0.6);
+}
+
