@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ProteinClub - Fuel Up Without the Hassle</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="/public/main.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/public/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/public/images/favicon.png">
 </head>
 <body class="bg-gray-900 font-sans text-gray-800">
 
   <!-- Hero Section -->
-  <section class="text-center py-20 bg-split flex flex-col">
-    <h1 class="text-6xl font-bold text-gray-900 font-fun">Fuel Up Without the Hassle</h1>
+  <section class="text-center p-8 bg-split flex flex-col">
+    <img src="public/images/logo.png" alt="ProteinClub" class="w-32 m-auto md:m-0 xl:fixed">
+    <h1 class="text-6xl font-bold text-gray-900 font-fun mt-10">Fuel Up Without the Hassle</h1>
     <p class="text-2xl font-serif">Join ProteinClub and get your favorite protein blends delivered to your door, every month.</p>
 
     <!-- Hero Image -->
-    <div class="mt-10 flex justify-center">
-      <img src="public/images/bottle-1.png" alt="Protein Shaker Bottle" class="h-96 max-w-md">
+    <div class="mt-10 flex justify-center h-96 max-w-full">
+      <img src="public/images/bottle-3.png" alt="Protein Shaker Bottle" class="h-96 object-contain">
     </div>
 
-    <form class="flex flex-row justify-center items-center self-center rounded mt-16 gap-4 p-1">
-      <input type="email" placeholder="Enter your email" class="p-4 rounded-md bg-white w-96 rounded-full">
+    <form class="flex flex-col md:flex-row justify-center items-center self-center rounded mt-16 gap-4 p-1 px-8 w-full font-bold">
+      <input type="email" placeholder="Enter your email" class="p-4 rounded-md bg-white w-full md:w-96 max-w-full rounded-full font-bold">
 
-      <button class="bg-pink hover-bg-pink text-white p-4 transition rounded-full">
+      <button class="bg-pink hover-bg-pink text-white p-4 transition rounded-full font-bold">
         Sign up for early access
       </button>
     </form>
@@ -31,35 +32,33 @@
 
   <!-- How It Works Section -->
   <section class="py-20 bg-beige">
-    <h2 class="text-3xl font-bold text-center mb-10 font-fun">How It Works</h2>
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center px-4 md:px-0">
 
       <!-- Step 1 -->
       <div>
         <div class="mx-auto w-48 h-48 flex items-center justify-center mb-4">
-          <img src="public/images/choose.png" alt="Choose Your Protein" class="w-48">
+          <img src="public/images/daily.png" alt="Choose Your Protein" class="h-48">
         </div>
-        <h3 class="font-semibold text-xl mb-2">Choose Your Protein</h3>
-        <p>Pick from a variety of protein blends tailored to your needs.</p>
+        <h3 class="font-semibold text-4xl mb-2 font-fun">Daily Protein</h3>
+        <p class="font-serif">31 daily servings of 15-25 grams of protein in each delivery.</p>
       </div>
 
-      <!-- Step 2 -->
       <div>
         <div class="rounded-full mx-auto w-48 h-48 flex items-center justify-center mb-4">
-          <img src="public/images/delivery.png" alt="Get Monthly Delivery" class="w-48">
+          <img src="/public/images/track.png" alt="Power Your Goals" class="h-48">
         </div>
-        <h3 class="font-semibold text-xl mb-2">Get Monthly Delivery</h3>
-        <p>Your protein delivered to your door every month, hassle-free.</p>
+        <h3 class="font-semibold text-4xl mb-2 font-fun">Stay on Track</h3>
+        <p class="font-serif">Tracking nutrition isn’t for everyone. With one daily serving, you’re helping your body without counting calories or macros.</p>
+      </div>
+      <div>
+        <div class="rounded-full mx-auto w-48 h-48 flex items-center justify-center mb-4">
+          <img src="public/images/variety.png" alt="Get Monthly Delivery" class="h-48">
+        </div>
+        <h3 class="font-semibold text-4xl mb-2 font-fun">Great Variety</h3>
+        <p class="font-serif">Starting with a mix of most-loved brands, find and dial up your faves.</p>
       </div>
 
       <!-- Step 3 -->
-      <div>
-        <div class="rounded-full mx-auto w-48 h-48 flex items-center justify-center mb-4">
-          <img src="/public/images/power.png" alt="Power Your Goals" class="w-48">
-        </div>
-        <h3 class="font-semibold text-xl mb-2">Power Your Goals</h3>
-        <p>Fuel your fitness journey with quality protein blends.</p>
-      </div>
     </div>
   </section>
 

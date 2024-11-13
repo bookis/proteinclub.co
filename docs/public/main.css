@@ -6,6 +6,10 @@
   --brown-color: #D29F7A;
   --beige-color: #E4DAC7;
   --blue-color: #8EBFC3;
+  --slate-color: #C4CFCE;
+}
+
+body {
 }
 
 .font-fun {
@@ -21,7 +25,11 @@
 }
 
 .bg-split {
-  background: linear-gradient(to right, var(--brown-color) 0%, var(--brown-color) 50%, #8EBFC3 50%, #8EBFC3 100%);
+  /* background: linear-gradient(to right, #000 100%, rgba(0,0,0,0.2) 0%), linear-gradient(to right, var(--brown-color) 0%, var(--brown-color) 50%, #8EBFC3 50%, #8EBFC3 100%); */
+  background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 60%, rgba(55, 55, 110, 0.15)),
+  linear-gradient(to right, var(--brown-color) 0%, var(--brown-color) 50%, #8EBFC3 50%, #8EBFC3 100%);
+
+
 }
 
 .bg-beige {
@@ -44,3 +52,7 @@
   background-color: rgba(255,255,255,0.6);
 }
 
+
+.bg-slate {
+  background-color: var(--slate-color);
+}
